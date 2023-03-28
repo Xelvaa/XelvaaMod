@@ -1,0 +1,3 @@
+displayName = Xelvaa's Ranger Content Mod
+author = Xelvaa
+version = 0.1
