@@ -19,6 +19,7 @@ namespace XelvaaMod.Global.Weapons.FlareGun
 			item.knockBack = 0f;
 		}
 	}
+}
 
 //j'avais déjà testé ce truc auparavant ça marchait bien mais les reforges étaient quand même bloqués (vu que le flare gun de base ne peut pas avoir de reforge).
 //Une idée comment forcer l'arme à avoir des reforges ?
