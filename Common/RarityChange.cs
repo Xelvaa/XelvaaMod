@@ -22,3 +22,17 @@ namespace Common.RarityChange
             case ItemID.ThornWhip
             item.rare = ItemRarityID.Green;
                     break;
+            case ItemID.SolarEruption
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+            case ItemID.
+
