@@ -45,4 +45,9 @@ namespace Common.RarityChange
             case ItemID.
             case ItemID.
             item.rage = ItemRarityID.Cyan
+            break;
+            case ItemID.EmpressBlade
+            case ItemID.Zenith
+            item.rage = ItemRarityID.Purple
+       
   
