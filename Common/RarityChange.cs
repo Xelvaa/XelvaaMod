@@ -40,10 +40,6 @@ namespace Common.RarityChange
             case ItemID.PiercingStarlight
             case ItemID.RainbowWhip
             case ItemID.SparkleGuitar
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
             item.rage = ItemRarityID.Cyan
             break;
             case ItemID.EmpressBlade
