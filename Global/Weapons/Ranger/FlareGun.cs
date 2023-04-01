@@ -3,6 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace XelvaaMod.Global.Weapons.Ranger
+{
 
 	public class FlareGun : GlobalItem
 	{
