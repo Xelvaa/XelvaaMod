@@ -23,16 +23,26 @@ namespace Common.RarityChange
             item.rare = ItemRarityID.Green;
                     break;
             case ItemID.SolarEruption
+            case ItemID.StardustCellStaff
+            case ItemID.VortexBeater
+            case ItemID.NebulaArcanum
+            case ItemID.StardustDragonStaff
+            case ItemID.DayBreak
+            case ItemID.NebulaBlaze
+            case ItemID.Phantasm
+            case ItemID.SuperHealingPotion
+            case ItemID.LunarCraftingStation
+            case ItemID.LunarHook
+            case ItemID.Terrarian
+            case ItemID.FairyQueenMagicItem
+            case ItemID.FairyQueenRangedItem
+            case ItemID.EmpressButterfly
+            case ItemID.PiercingStarlight
+            case ItemID.RainbowWhip
+            case ItemID.SparkleGuitar
             case ItemID.
             case ItemID.
             case ItemID.
             case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-            case ItemID.
-
+            item.rage = ItemRarityID.Cyan
+  
