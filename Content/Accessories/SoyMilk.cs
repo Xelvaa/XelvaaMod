@@ -15,6 +15,8 @@ namespace XelvaaMod.Content.Accessories
 		{
 
 			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 1;
+                        Tooltip.SetDefault("Attack speed increased drastically for the cost of a lot of damage");
+                        Tooltip.SetDefault("Can synergize poorly with some weapons");
 		}
 
 		public override void SetDefaults()
@@ -29,7 +31,7 @@ namespace XelvaaMod.Content.Accessories
 
 			player.GetDamage(DamageClass.Generic) *= 0.4f;
 			player.GetAttackSpeed(DamageClass.Generic) *= 2.75f;
-			player.GetArmorPenetration(DamageClass.Generic) += 5f;//je ne trouve pas comment réduire la taille des armes/projectiles aussi
+			player.GetArmorPenetration(DamageClass.Generic) += 15f;//je ne trouve pas comment réduire la taille des armes/projectiles aussi
 			player.GetKnockback(DamageClass.Generic) += -2.25f; 
 		}
 		public override void AddRecipes()
