@@ -3,10 +3,10 @@ using Terraria.ID;
 using Terraria.Modloader;
 
 namespace XelvaaMod.Content.debuff {
-    public class Toxic : ModBuff {
+    public class SeverePoison : ModBuff {
         public override void SetStaticDefaults() {
-            DisplayName.SetDefault("Toxic");
-            Description.SetDefault("You're infected");
+            DisplayName.SetDefault("Severe Poison");
+            Description.SetDefault("Slowly losing life");
             Main.debuff[Type] = true;
             Main.pvpBuff[Type] = true;}
         public override Update(Player player, ref int buffIndex){
