@@ -24,6 +24,3 @@ namespace Global.Armors
              case ItemID.CobaltLeggings:
              item.defense = 10;
              return;
-             }
-             }
-
